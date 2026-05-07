@@ -58,7 +58,7 @@ for Walmart department sales forecasting.
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("train 2.csv")
+    df = pd.read_csv("train_2.csv")
 
     df['Date'] = pd.to_datetime(df['Date'])
 
